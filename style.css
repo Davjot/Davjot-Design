@@ -1,0 +1,156 @@
+/*Setting style for background image*/ 
+.image{
+	width: 100%;
+	height: 100vh;
+	background-image: url(rain.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin:-10px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+/*Styling image*/
+.logo{
+	width: 100px;
+	height: 10vh;
+	cursor: pointer;
+	margin: -100px;
+}
+/*navbar style*/
+.navbar{
+	width: 85%;
+	height: 15%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*Styling the button*/
+button{
+	color: snow;
+	padding: 10px 25px;
+	background: transparent;
+	border: 3px solid aquamarine;
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer;
+	font-size: 30px;
+	font-family: 'Sansita Swashed', cursive;
+}
+/*Styling the text*/
+.content{
+	color: turquoise;
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	margin-top: -200px;
+	z-index: 2;
+	font-size: 40px;
+	font-family: 'Grenze Gotisch', cursive;
+}
+h1{
+	font-size: 80px;
+	margin: -1px 0 30px;
+	line-height: 80px;
+}
+/*Styling style bar*/
+.side-bar{
+	width: 80px;
+	height: 100vh;
+	background: linear-gradient(#00545d, #000729);
+	position: absolute;
+	right: -750px;
+	top: -210px;
+}
+/*Styling menu*/
+.menu{
+	display: block;
+	width: 25px;
+	margin: 40px auto 0;
+	cursor: pointer;
+	color: snow;
+}
+/*Styyling social links*/
+.social-links img, .useful-links img{
+	width: 40px;
+	margin: 10px auto;
+	cursor: pointer;
+}
+.social-links{
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+	transform: translateY(-150%);
+}
+.useful-links{
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+}
+/*Styling drop image*/
+.drops img{
+    width: 50px;
+    animation: drop 7s linear infinite;
+}
+/*Setting position of drops*/
+.drops{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+    top: -60px;
+}
+/*Adding keyframes*/
+@keyframes drop{
+	0%{
+		transform: translateY(0);
+		opacity: 0;
+	}
+	5%{
+		opacity: 1;
+	}
+	70%{
+		opacity: 1;
+	}
+	100%{
+		transform: translateY(80vh);
+		opacity: 0;
+	}
+}
+/*Adding delay to images*/
+.drops img:nth-child(1){
+	animation-delay: 2s;
+	width: 80px;
+}
+.drops img:nth-child(2){
+	animation-delay: 1s;
+}
+.drops img:nth-child(3){
+	animation-delay: 3s;
+	width: 80px;
+}
+.drops img:nth-child(4){
+	animation-delay: 4.5s;
+}
+.drops img:nth-child(5){
+	animation-delay: 3s;
+}
+.drops img:nth-child(6){
+	animation-delay: 6s;
+	width: 60px;
+}
+.drops img:nth-child(7){
+	animation-delay: 7s;
+	width: 70px;
+}
+
+
+
+
+
+
+
+
+
